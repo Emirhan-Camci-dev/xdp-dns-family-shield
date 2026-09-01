@@ -52,8 +52,8 @@ Located in the `community/` directory.
 
 ### Enterprise / Carrier Edition (Proprietary)
 Located in the `enterprise/` directory. Perfect for ISP CPEs & Router OEMs.
-- **Licenses:** $4,800 – $14,400/year per OEM/Deployment.
-- **Purchase via Polar.sh:** [Buy Enterprise License on Polar.sh](#)
+
+- **Purchase via Polar.sh:** [Buy Enterprise License on Polar.sh](https://buy.polar.sh/polar_cl_OsUW6CrBg9xwZqbyREqyhl3FjaymoasazbsSf4cQCLl)
 - **Features:**
   - **Zero-Copy `XDP_TX` Redirection:** Synthesizes forged DNS NXDOMAIN or A-Record responses directly in the kernel in <50μs.
   - **2M+ Domain Capacity:** Utilizes `BPF_MAP_TYPE_LPM_TRIE` for wildcard and Longest Prefix Match filtering.
