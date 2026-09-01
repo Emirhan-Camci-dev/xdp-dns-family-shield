@@ -1,0 +1,20 @@
+[package]
+name = "edgeshield-dns-community"
+version = "0.1.0"
+edition = "2021"
+authors = ["Emirhan CAMCI <byemir@live.com>"]
+license = "AGPL-3.0"
+description = "Community Edition: XDP-Powered Zero-Copy DNS Firewall"
+
+[[bin]]
+name = "edgeshield-dns"
+path = "user/src/main.rs"
+
+[dependencies]
+aya = "0.13"
+aya-log = "0.2"
+tokio = { version = "1", features = ["full", "signal"] }
+anyhow = "1.0"
+clap = { version = "4", features = ["derive"] }
+env_logger = "0.11"
+log = "0.4"
